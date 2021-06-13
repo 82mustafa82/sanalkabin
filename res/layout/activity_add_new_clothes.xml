@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewClothes"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/clothesText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create New Clothes"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/clothesText3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|text" />
+
+    <TextView
+        android:id="@+id/clothesText4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Type"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|text" />
+
+    <TextView
+        android:id="@+id/clothesText5"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Color"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|text" />
+
+    <TextView
+        android:id="@+id/clothesText6"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Pattern"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|text" />
+
+    <TextView
+        android:id="@+id/clothesText7"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"  />
+
+    <TextView
+        android:id="@+id/clothesText8"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Date"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName|text" />
+
+        <Button
+            android:id="@+id/select_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select Date" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_clothes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create" />
+
+</LinearLayout>
